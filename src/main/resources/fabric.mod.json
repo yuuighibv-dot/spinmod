@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "spinmod",
+  "version": "${version}",
+  "name": "Spin Mod",
+  "description": "Press R to spin the player around while standing still.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.spinmod.SpinModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
